@@ -13,10 +13,19 @@ body {
   padding-right: 10px;
   border-radius: 15px;
   color: black;
-  width: 500px;
   z-index: 1;
   font-family: "Courier New", Courier, monospace;
 }
+
+.sub-heading {
+  padding-top: 5px;
+  background-color: black;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 100px;
+}
+
 .col {
   margin-top: 20px;
 }
@@ -29,7 +38,6 @@ body {
 
 .left-col {
   padding: 15px;
-  border-right: 1px solid black;
 }
 
 .right-col {

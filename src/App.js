@@ -5,7 +5,7 @@ import { Container, Row, Col, Badge } from "react-bootstrap";
 const App = () => {
   return (
     <div>
-      <Container fluid>
+      <Container>
         <Row>
           <Col>
             <h1 className="text-center main-heading text-black font-weight-bold m-auto">
@@ -14,18 +14,16 @@ const App = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="text-center">
-            <Badge variant="dark" className="pt-2 pb-2 pl-2 pr-2">
-              A simple test case generator for UML diagrams built in React,
-              Nodejs and Express server bindings.
-            </Badge>{" "}
+          <Col className="mt-4 text-center  sub-heading">
+            A simple test case generator for UML diagrams built in React, Nodejs
+            and Express server bindings.
           </Col>
         </Row>
         <hr />
       </Container>
       <Container>
         <Row>
-          <Col xs={12} md={6} lg={6} className="left-col">
+          <Col xs={12} md={12} lg={12} className="left-col">
             <h4 className="text-center">Process</h4>
             <div className="mt-2 divprops">
               <Row>
@@ -94,7 +92,7 @@ const App = () => {
               </Row>
             </div>
           </Col>
-          <Col xs={12} md={6} lg={6} className="right-col">
+          <Col xs={12} md={12} lg={12} className="right-col">
             <h4 className="text-center">Local Usage</h4>
             <div className="mt-2 divprops">
               <Row>
@@ -161,12 +159,14 @@ const App = () => {
       </Container>
       <Container>
         <Row>
-          <p className="m-auto">
-            Distributed under License:{" "}
-            <a href="https://github.com/mayuraitavadekar/uml-sequence-test-case-generator/blob/master/LICENSE">
-              Apache License 2.0
-            </a>{" "}
-          </p>
+          <Col>
+            <p className="m-auto text-center">
+              Distributed under License:{" "}
+              <a href="https://github.com/mayuraitavadekar/uml-sequence-test-case-generator/blob/master/LICENSE">
+                Apache License 2.0
+              </a>{" "}
+            </p>
+          </Col>
         </Row>
       </Container>
     </div>
