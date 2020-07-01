@@ -157,18 +157,6 @@ const App = () => {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row>
-          <Col>
-            <p className="m-auto text-center">
-              Distributed under License:{" "}
-              <a href="https://github.com/mayuraitavadekar/uml-sequence-test-case-generator/blob/master/LICENSE">
-                Apache License 2.0
-              </a>{" "}
-            </p>
-          </Col>
-        </Row>
-      </Container>
     </div>
   );
 };
